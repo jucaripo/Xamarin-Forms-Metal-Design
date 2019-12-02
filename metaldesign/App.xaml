@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="metaldesign.App">
+    <Application.Resources>
+       <ResourceDictionary>
+            <!-- Xamarin Form Material Design Color System por Jucaripo -->
+            <!-- usamos MD para saber que es Material Design-->
+            <!--  Nombre del patron  + la palabra Color  para identificar en Xaml que solo es color -->
+            <!-- Definición de colores de Marca -->
+            <Color x:Key="MdPrimaryColor">#6200EE</Color>
+            <Color x:Key="MdPrimaryVariantColor">#3700B3</Color>
+            <Color x:Key="MdSeondaryColor">#03DAC6</Color>
+            <Color x:Key="MdSeondaryVariantColor">#018786</Color>
+            <!-- Definición de colores de sistema-->
+            <Color x:Key="MdBackgroundColor">#FFFFFF</Color>
+            <Color x:Key="MdSorfaceColor">#FFFFFF</Color>
+            <Color x:Key="MdErrorColor">#B00020</Color>
+            <!-- Definición de colores On "Deben tener contraste al color referido" -->    
+            <Color x:Key="MdOnPrimaryColor">#FFFFFF</Color>
+            <Color x:Key="MdOnSeondaryColor">#000000</Color>
+            <Color x:Key="MdOnBackgroundColor">#000000</Color>
+            <Color x:Key="MdOnSorfaceColor">#000000</Color>
+            <Color x:Key="MdOnErrorColor">#FFFFFF</Color>
+            <!-- Definición para Unselected elements de primary color-->
+            <Color x:Key="MdUnselectedPrimaryColor">#999999</Color>
+            <!-- Fin de Xamarin Form Material Design Color System -->
+         </ResourceDictionary>      
+    </Application.Resources>
+</Application>
